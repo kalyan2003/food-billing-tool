@@ -14,7 +14,7 @@ class login{
      }
     void print()
     {
-        cout<<"WELCOME TO K&K FOODS "<<str<<endl;
+        cout<<"WELCOME TO K&K FOODS  "<<str<<endl;
     }
 };
 class food{
@@ -77,7 +77,7 @@ class bill:public choose{
     float tot;
     void dis()
     {
-        cout<<"************BILL***********"<<endl;
+        cout<<"***********BILL**********"<<endl;
         subtot=sum;
         cout<<"Amount without tax = "<<subtot<<endl;
     }
